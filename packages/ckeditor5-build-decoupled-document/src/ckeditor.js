@@ -39,6 +39,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
+import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
 
@@ -76,7 +77,8 @@ DecoupledEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	Mention
 ];
 
 // Editor configuration.
